@@ -76,7 +76,7 @@ export default function LandingPage() {
       carouselItems={[
         {
           id: "1",
-          imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg?_wi=1",
           imageAlt: "Professional plumber in Katy",
         },
         {
@@ -160,21 +160,21 @@ export default function LandingPage() {
           title: "Faucet & Shower Repairs",
           description: "No more leaks. We fix dripping faucets and showers quickly.",
           buttonIcon: "Droplets",
-          imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg?_wi=2",
           imageAlt: "Young couple in construction worker uniform and cap furious girl holding pipe wrench shouting out loud with closed eyes excited guy  both keeping hand near mouth isolated",
         },
         {
           title: "Drain Cleaning",
           description: "Keep your home flowing smoothly with our expert drain clearing service.",
           buttonIcon: "Brush",
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg?_wi=1",
           imageAlt: "Young couple in construction worker uniform and cap furious girl holding pipe wrench shouting out loud with closed eyes excited guy  both keeping hand near mouth isolated",
         },
         {
           title: "Sewer Line Repair",
           description: "Non-invasive sewer line repair when you need it most.",
           buttonIcon: "Wrench",
-          imageSrc: "http://img.b2bpic.net/free-photo/charming-student-girl-good-mood-relaxing-home_343059-139.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/charming-student-girl-good-mood-relaxing-home_343059-139.jpg?_wi=1",
           imageAlt: "Young couple in construction worker uniform and cap furious girl holding pipe wrench shouting out loud with closed eyes excited guy  both keeping hand near mouth isolated",
         },
       ]}
@@ -224,7 +224,7 @@ export default function LandingPage() {
       description="At Jalen & Sons Plumbing, we believe great service goes beyond fixing pipes. Our team is known for being professional, honest, and respectful in every home we enter."
       subdescription="From small repairs to major plumbing jobs, we take the time to do things right—and make sure you understand every step."
       icon={Users}
-      imageSrc="http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg?_wi=2"
       mediaAnimation="slide-up"
     />
   </div>
@@ -245,21 +245,21 @@ export default function LandingPage() {
           title: "Clear Communication",
           description: "Honest explanations about every repair.",
           buttonIcon: "MessageCircle",
-          imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg?_wi=3",
           imageAlt: "Male plumber working with client to fix kitchen problems",
         },
         {
           title: "Skilled Experts",
           description: "Qualified, friendly technicians.",
           buttonIcon: "Award",
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg?_wi=3",
           imageAlt: "Male plumber working with client to fix kitchen problems",
         },
         {
           title: "Clean & Respectful",
           description: "We treat your home like our own.",
           buttonIcon: "Smile",
-          imageSrc: "http://img.b2bpic.net/free-photo/charming-student-girl-good-mood-relaxing-home_343059-139.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/charming-student-girl-good-mood-relaxing-home_343059-139.jpg?_wi=2",
           imageAlt: "Male plumber working with client to fix kitchen problems",
         },
       ]}

@@ -59,7 +59,7 @@ export default function LandingPage() {
           text: "Call (346) 239-1620",          href: "tel:3462391620"},
       ]}
       carouselItems={[
-        {id: "1", imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg", imageAlt: "Professional plumber in Katy"},
+        {id: "1", imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg?_wi=1", imageAlt: "Professional plumber in Katy"},
         {id: "2", imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-male-builder-wearing-uniform-safety-helmet-his-thumb-up-pink_141793-74570.jpg", imageAlt: "Plumber with water heater"},
         {id: "3", imageSrc: "http://img.b2bpic.net/free-photo/plumbing-professional-doing-his-job_23-2150721574.jpg", imageAlt: "Plumbing service in residential home"},
         {id: "4", imageSrc: "http://img.b2bpic.net/free-photo/architectural-blueprints_1359-498.jpg", imageAlt: "Friendly expert technician"},
@@ -91,9 +91,9 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         { title: "Water Heater Installs", description: "High-efficiency water heaters installed properly for lasting warmth.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-photo/young-couple-construction-worker-uniform-cap-furious-girl-holding-pipe-wrench-shouting-out-loud-with-closed-eyes-excited-guy-both-keeping-hand-near-mouth-isolated_141793-78844.jpg", imageAlt: "Service alt" },
-        { title: "Faucet & Shower Repairs", description: "No more leaks. We fix dripping faucets and showers quickly.", buttonIcon: Droplets, imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg", imageAlt: "Service alt" },
-        { title: "Drain Cleaning", description: "Keep your home flowing smoothly with our expert drain clearing service.", buttonIcon: Brush, imageSrc: "http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg", imageAlt: "Service alt" },
-        { title: "Sewer Line Repair", description: "Non-invasive sewer line repair when you need it most.", buttonIcon: Wrench, imageSrc: "http://img.b2bpic.net/free-photo/charming-student-girl-good-mood-relaxing-home_343059-139.jpg", imageAlt: "Service alt" },
+        { title: "Faucet & Shower Repairs", description: "No more leaks. We fix dripping faucets and showers quickly.", buttonIcon: Droplets, imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg?_wi=2", imageAlt: "Service alt" },
+        { title: "Drain Cleaning", description: "Keep your home flowing smoothly with our expert drain clearing service.", buttonIcon: Brush, imageSrc: "http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg?_wi=1", imageAlt: "Service alt" },
+        { title: "Sewer Line Repair", description: "Non-invasive sewer line repair when you need it most.", buttonIcon: Wrench, imageSrc: "http://img.b2bpic.net/free-photo/charming-student-girl-good-mood-relaxing-home_343059-139.jpg?_wi=1", imageAlt: "Service alt" },
       ]}
       title="Plumbing Services You Can Count On"
       description="We specialize in the solutions Katy homeowners need most."
@@ -126,7 +126,7 @@ export default function LandingPage() {
       description="At Jalen & Sons Plumbing, we believe great service goes beyond fixing pipes. Our team is known for being professional, honest, and respectful in every home we enter."
       subdescription="From small repairs to major plumbing jobs, we take the time to do things right—and make sure you understand every step."
       icon={Users}
-      imageSrc="http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg?_wi=2"
       mediaAnimation="slide-up"
     />
   </div>
@@ -137,9 +137,9 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         { title: "Fast Scheduling", description: "Often next-day service.", buttonIcon: Calendar, imageSrc: "http://img.b2bpic.net/free-photo/male-plumber-working-with-client-fix-kitchen-problems_23-2150990689.jpg", imageAlt: "Alt" },
-        { title: "Clear Communication", description: "Honest explanations about every repair.", buttonIcon: MessageCircle, imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg", imageAlt: "Alt" },
-        { title: "Skilled Experts", description: "Qualified, friendly technicians.", buttonIcon: Award, imageSrc: "http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg", imageAlt: "Alt" },
-        { title: "Clean & Respectful", description: "We treat your home like our own.", buttonIcon: Smile, imageSrc: "http://img.b2bpic.net/free-photo/charming-student-girl-good-mood-relaxing-home_343059-139.jpg", imageAlt: "Alt" },
+        { title: "Clear Communication", description: "Honest explanations about every repair.", buttonIcon: MessageCircle, imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg?_wi=3", imageAlt: "Alt" },
+        { title: "Skilled Experts", description: "Qualified, friendly technicians.", buttonIcon: Award, imageSrc: "http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg?_wi=3", imageAlt: "Alt" },
+        { title: "Clean & Respectful", description: "We treat your home like our own.", buttonIcon: Smile, imageSrc: "http://img.b2bpic.net/free-photo/charming-student-girl-good-mood-relaxing-home_343059-139.jpg?_wi=2", imageAlt: "Alt" },
       ]}
       title="Why Katy Homeowners Keep Choosing Us"
       description="We are the safe choice for plumbing that you won't regret."

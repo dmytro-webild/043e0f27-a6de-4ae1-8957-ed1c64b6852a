@@ -3,15 +3,15 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactText from '@/components/sections/contact/ContactText';
-import FaqDouble from '@/components/sections/faq/FaqDouble';
+import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardTwentySix from '@/components/sections/feature/FeatureCardTwentySix';
-import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
+import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboardRotatedCarousel';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
-import { Clock, MessageSquare, ShieldCheck, Star, Users, Zap, Droplets, Brush, Wrench, Calendar, MessageCircle, Award, Smile } from "lucide-react";
+import { Clock, MessageSquare, ShieldCheck, Star, Users, Zap, Droplets, Brush, Wrench, Calendar, MessageCircle, Award, Smile, Phone, Mail, MapPin } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -31,32 +31,26 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        {
-          name: "Services",          id: "services"},
-        {
-          name: "Testimonials",          id: "testimonials"},
-        {
-          name: "About",          id: "about"},
-        {
-          name: "Contact",          id: "contact"},
+        { name: "Services", id: "services" },
+        { name: "Testimonials", id: "testimonials" },
+        { name: "About", id: "about" },
+        { name: "Contact", id: "contact" },
       ]}
       button={{
-        text: "Call Now",        href: "tel:3462391620"}}
+        text: "Call Now", href: "tel:3462391620"
+      }}
       brandName="Jalen & Sons Plumbing"
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroBillboardRotatedCarousel
-      background={{
-        variant: "rotated-rays-animated"}}
+      background={{ variant: "rotated-rays-animated" }}
       title="Reliable Plumbing in Katy — Done Right, On Time, Every Time"
       description="Top-rated local plumbers known for fast service, honest pricing, and professional care in your home."
       buttons={[
-        {
-          text: "Book Service Now",          href: "#contact"},
-        {
-          text: "Call (346) 239-1620",          href: "tel:3462391620"},
+        { text: "Book Service Now", href: "#contact" },
+        { text: "Call (346) 239-1620", href: "tel:3462391620" },
       ]}
       carouselItems={[
         {id: "1", imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg?_wi=1", imageAlt: "Professional plumber in Katy"},
@@ -71,7 +65,7 @@ export default function LandingPage() {
 
   <div id="trust" data-section="trust">
       <MetricCardThree
-      animationType="slide-up"
+      animationType="depth-3d"
       textboxLayout="default"
       useInvertedBackground={false}
       metrics={[
@@ -90,10 +84,10 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        { title: "Water Heater Installs", description: "High-efficiency water heaters installed properly for lasting warmth.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-photo/young-couple-construction-worker-uniform-cap-furious-girl-holding-pipe-wrench-shouting-out-loud-with-closed-eyes-excited-guy-both-keeping-hand-near-mouth-isolated_141793-78844.jpg", imageAlt: "Service alt" },
-        { title: "Faucet & Shower Repairs", description: "No more leaks. We fix dripping faucets and showers quickly.", buttonIcon: Droplets, imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg?_wi=2", imageAlt: "Service alt" },
-        { title: "Drain Cleaning", description: "Keep your home flowing smoothly with our expert drain clearing service.", buttonIcon: Brush, imageSrc: "http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg?_wi=1", imageAlt: "Service alt" },
-        { title: "Sewer Line Repair", description: "Non-invasive sewer line repair when you need it most.", buttonIcon: Wrench, imageSrc: "http://img.b2bpic.net/free-photo/charming-student-girl-good-mood-relaxing-home_343059-139.jpg?_wi=1", imageAlt: "Service alt" },
+        { title: "Water Heater Installs", description: "High-efficiency water heaters installed properly for lasting warmth.", buttonIcon: Zap },
+        { title: "Faucet & Shower Repairs", description: "No more leaks. We fix dripping faucets and showers quickly.", buttonIcon: Droplets },
+        { title: "Drain Cleaning", description: "Keep your home flowing smoothly with our expert drain clearing service.", buttonIcon: Brush },
+        { title: "Sewer Line Repair", description: "Non-invasive sewer line repair when you need it most.", buttonIcon: Wrench },
       ]}
       title="Plumbing Services You Can Count On"
       description="We specialize in the solutions Katy homeowners need most."
@@ -109,12 +103,9 @@ export default function LandingPage() {
       avatars={[
         { src: "http://img.b2bpic.net/free-photo/charming-student-girl-good-mood-relaxing-home_343059-139.jpg", alt: "Sarah Jenkins" },
         { src: "http://img.b2bpic.net/free-photo/expressive-senior-female-posing-indoor_344912-362.jpg", alt: "Mark Davis" },
-        { src: "http://img.b2bpic.net/free-photo/interior-designer-home-owner-discussing-ideas-renovation_74855-2946.jpg", alt: "Emily Carter" },
-        { src: "http://img.b2bpic.net/free-photo/expressive-young-woman-posing_344912-1756.jpg", alt: "John Smith" },
-        { src: "http://img.b2bpic.net/free-photo/middle-age-couple-standing-together-doing-ok-gesture-with-hand-smiling-eye-looking-through-fingers-with-happy-face_839833-32832.jpg", alt: "Laura Wilson" },
       ]}
-      ratingAnimation="slide-up"
-      avatarsAnimation="slide-up"
+      ratingAnimation="blur-reveal"
+      avatarsAnimation="blur-reveal"
     />
   </div>
 
@@ -127,7 +118,7 @@ export default function LandingPage() {
       subdescription="From small repairs to major plumbing jobs, we take the time to do things right—and make sure you understand every step."
       icon={Users}
       imageSrc="http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg?_wi=2"
-      mediaAnimation="slide-up"
+      mediaAnimation="blur-reveal"
     />
   </div>
 
@@ -136,10 +127,10 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       features={[
-        { title: "Fast Scheduling", description: "Often next-day service.", buttonIcon: Calendar, imageSrc: "http://img.b2bpic.net/free-photo/male-plumber-working-with-client-fix-kitchen-problems_23-2150990689.jpg", imageAlt: "Alt" },
-        { title: "Clear Communication", description: "Honest explanations about every repair.", buttonIcon: MessageCircle, imageSrc: "http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg?_wi=3", imageAlt: "Alt" },
-        { title: "Skilled Experts", description: "Qualified, friendly technicians.", buttonIcon: Award, imageSrc: "http://img.b2bpic.net/free-photo/happy-auto-mechanics-working-together-workshop_637285-9438.jpg?_wi=3", imageAlt: "Alt" },
-        { title: "Clean & Respectful", description: "We treat your home like our own.", buttonIcon: Smile, imageSrc: "http://img.b2bpic.net/free-photo/charming-student-girl-good-mood-relaxing-home_343059-139.jpg?_wi=2", imageAlt: "Alt" },
+        { title: "Fast Scheduling", description: "Often next-day service.", buttonIcon: Calendar },
+        { title: "Clear Communication", description: "Honest explanations about every repair.", buttonIcon: MessageCircle },
+        { title: "Skilled Experts", description: "Qualified, friendly technicians.", buttonIcon: Award },
+        { title: "Clean & Respectful", description: "We treat your home like our own.", buttonIcon: Smile },
       ]}
       title="Why Katy Homeowners Keep Choosing Us"
       description="We are the safe choice for plumbing that you won't regret."
@@ -147,9 +138,7 @@ export default function LandingPage() {
   </div>
 
   <div id="faq" data-section="faq">
-      <FaqDouble
-      textboxLayout="default"
-      useInvertedBackground={false}
+      <FaqSplitMedia
       faqs={[
         { id: "q1", title: "Do you offer emergency services?", content: "Yes, we prioritize emergency plumbing issues." },
         { id: "q2", title: "Are your technicians licensed?", content: "All our team members are fully qualified and experienced." },
@@ -157,37 +146,38 @@ export default function LandingPage() {
       ]}
       title="Common Questions"
       description="Answers to help you understand our process."
-      faqsAnimation="slide-up"
+      faqsAnimation="blur-reveal"
+      textboxLayout="split"
+      useInvertedBackground={true}
+      imageSrc="http://img.b2bpic.net/free-photo/female-plumber-working-fix-problems-client-s-house_23-2150990738.jpg?_wi=2"
+      mediaAnimation="blur-reveal"
     />
   </div>
 
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={true}
-      background={{
-        variant: "gradient-bars"}}
+      background={{ variant: "gradient-bars" }}
       text="Need a Plumber You Can Trust? We make it simple—fast service, honest work, no stress."
       buttons={[
-        {
-          text: "Book Appointment",          href: "#"},
-        {
-          text: "Call Now",          href: "tel:3462391620"},
+        { text: "Book Appointment", href: "#" },
+        { text: "Call Now", href: "tel:3462391620" },
       ]}
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBaseCard
+      <FooterLogoEmphasis
       logoText="Jalen & Sons Plumbing"
       columns={[
         {
-          title: "Company",          items: [
+          items: [
             { label: "About", href: "#about" },
             { label: "Services", href: "#services" },
           ],
         },
         {
-          title: "Contact",          items: [
+          items: [
             { label: "(346) 239-1620", href: "tel:3462391620" },
             { label: "Book Now", href: "#contact" },
           ],
